@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "rm -rf dist && webpack --config webpack.config.prod.js && sass src/styles/app.scss dist/style.css --no-source-map --style=compressed && cp -r images dist/images && cp index.html dist/index.html",
     "dev": "concurrently \"ts-node-dev server/server.ts\" \"webpack-dev-server\" \"sass src/styles/app.scss style.css --watch --no-stop-on-error\"",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "start": "ts-node server/server.ts"
   },
   "author": "Josu Goñi",
   "license": "ISC",

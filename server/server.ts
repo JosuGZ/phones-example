@@ -1,5 +1,6 @@
 import * as Express from 'express';
 import * as Subdomain from 'express-subdomain';
+import * as Path from 'path';
 //import * as Compression from 'compression';
 
 var app: Express.Application = Express();
@@ -302,9 +303,10 @@ router.get('/phones', function(rec, res) {
 
 app.use(Subdomain('api', router));
 
-app.get('/', function(rec, res) {
-  res.send('Welcome to our App!');
+app.get('/', (req, res) => {
+  res.sendfile(Path.resolve(__dirname, '../dist/index.html'));
 });
+app.use(Express.static(Path.resolve(__dirname, '../dist')));
 
 app.listen(3000, function() {
   console.log('Server listening on ' + 3000);
