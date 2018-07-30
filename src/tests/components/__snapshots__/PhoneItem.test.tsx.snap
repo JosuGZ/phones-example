@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading match snapshot 1`] = `
+<div
+  className="phone-outer-box"
+>
+  <div
+    className="phone"
+  >
+    <div
+      className="img-container"
+    >
+      <img
+        src="/images/test.jpg"
+      />
+    </div>
+    <div
+      className="name"
+    >
+      Test Model
+    </div>
+  </div>
+</div>
+`;

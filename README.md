@@ -3,4 +3,5 @@
 - `npm install`
 
 # Scripts
-- `npm run dev`: Start the app in development mode
+- `npm run dev`: Starts the app in development mode
+- `npm run test`
