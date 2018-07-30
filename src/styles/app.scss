@@ -58,7 +58,7 @@ $accent-color: #fddb00;
   background-color: $background-color;
 }
 @media (min-width: 1280px) {
-  .phone-list {
+  .phone-list-container {
     width: 100%;
     padding-left: calc(50vw - 640px + 5px);
     padding-right: calc(50vw - 640px + 5px);
