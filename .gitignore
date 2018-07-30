@@ -1,0 +1,8 @@
+# ln -s .git/info/exclude .personalGitignore
+.personalGitignore
+
+node_modules/
+dist/
+config.ts
+style.css
+style.css.map
