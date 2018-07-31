@@ -1,9 +1,22 @@
 import * as Express from 'express';
+import * as Compression from 'compression';
 import * as Subdomain from 'express-subdomain';
 import * as Path from 'path';
 //import * as Compression from 'compression';
 
 var app: Express.Application = Express();
+
+// Enabling compression
+function shouldCompress (req, res) {
+  if (req.headers['x-no-compression']) {
+    // don't compress responses with this request header
+    return false
+  }
+
+  // fallback to standard filter function
+  return Compression.filter(req, res)
+}
+app.use(Compression({filter: shouldCompress}));
 
 app.disable('etag');
 
