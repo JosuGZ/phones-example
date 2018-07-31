@@ -98,19 +98,20 @@ router.get('/phones', function(rec, res) {
         name: 'Samsung Galaxy S7',
         image: '/images/samsung-galaxy-s7-2.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/samsung-galaxy-s7-1.jpg',
+          '/images/samsung-galaxy-s7-2.jpg',
+          '/images/samsung-galaxy-s7-pink.jpg',
+          '/images/samsung-galaxy-s7-3.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Exynos 8890 Octa',
+        ram: '4GB',
+        storage: '32/64B',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.1,
+          width: 1440,
+          height: 2560
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo mejor de Samsumg en el año 2016'
       },
       {
         name: 'iPhone 7',
@@ -167,22 +168,21 @@ router.get('/phones', function(rec, res) {
         description: 'Lo último de Apple'
       },
       {
-        name: 'Iphone X',
-        image: '/images/apple-iphone-x-new-1.jpg',
+        name: 'Huawei nova 3',
+        image: '/images/huawei-nova3-1.jpg',
         images: [
-          '/images/apple-iphone-x-new-1.jpg',
-          '/images/apple-iphone-x-new-2.jpg',
-          '/images/apple-iphone-x-4.jpg'
+          '/images/huawei-nova3-1.jpg',
+          '/images/huawei-nova3-2.jpg'
         ],
-        processor: 'Apple A11 Bionic',
-        ram: '3GB',
-        storage: '256GB',
+        processor: 'Hisilicon Kirin 970',
+        ram: '6GB',
+        storage: '64/128GB',
         screen: {
-          size: 5.8,
-          width: 1125,
-          height: 2436
+          size: 6.3,
+          width: 1080,
+          height: 2340
         },
-        description: 'Lo último de Apple'
+        description: 'Un móvil Huawei'
       },
       {
         name: 'Iphone X',
