@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && webpack --config webpack.config.prod.js && sass src/styles/app.scss dist/style.css --no-source-map --style=compressed && cp -r images dist/images && cp index.html dist/index.html",
+    "build": "rm -rf build && webpack --config webpack.config.prod.js && sass src/styles/app.scss build/dist/style.css --no-source-map --style=compressed && cp -r images build/dist/images && cp index.html build/dist/index.html",
     "dev": "concurrently \"ts-node-dev server/server.ts\" \"webpack-dev-server\" \"sass src/styles/app.scss style.css --watch --no-stop-on-error\"",
     "test": "jest --watch",
-    "start": "ts-node server/server.ts"
+    "start": "node ./build/server.js"
   },
   "author": "Josu Goñi",
   "license": "ISC",

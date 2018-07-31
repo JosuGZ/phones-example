@@ -304,9 +304,9 @@ router.get('/phones', function(rec, res) {
 app.use(Subdomain('api', router));
 
 app.get('/', (req, res) => {
-  res.sendfile(Path.resolve(__dirname, '../dist/index.html'));
+  res.sendFile(Path.resolve(__dirname, 'dist/index.html'));
 });
-app.use(Express.static(Path.resolve(__dirname, '../dist')));
+app.use(Express.static(Path.resolve(__dirname, 'dist')));
 
 app.listen(3000, function() {
   console.log('Server listening on ' + 3000);

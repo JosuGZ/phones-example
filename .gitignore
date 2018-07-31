@@ -2,7 +2,7 @@
 .personalGitignore
 
 node_modules/
-dist/
+build/
 config.ts
 style.css
 style.css.map
