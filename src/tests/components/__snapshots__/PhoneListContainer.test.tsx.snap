@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component PhoneListContainer match snapshot 1`] = `
+<div
+  className="phone-list-container"
+>
+  <PhoneItem
+    key="0"
+    phone={1}
+  />
+  <PhoneItem
+    key="1"
+    phone={2}
+  />
+  <PhoneItem
+    key="2"
+    phone={3}
+  />
+  <PhoneItem
+    key="3"
+    phone={4}
+  />
+</div>
+`;

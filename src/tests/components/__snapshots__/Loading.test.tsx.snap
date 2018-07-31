@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Loading match snapshot 1`] = `
+exports[`Component Loading match snapshot 1`] = `
 <div
   className="loader expand"
   style={
