@@ -3,6 +3,8 @@ $border-color: rgba(200, 200, 200, 1);
 $background-color: rgba(150, 150, 150, 0.1);
 $accent-color: #fddb00;
 
+@import 'modal';
+
 * {
   padding: 0;
   margin: 0;
@@ -87,6 +89,7 @@ $accent-color: #fddb00;
 }
 
 .phone {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   width: 100%;

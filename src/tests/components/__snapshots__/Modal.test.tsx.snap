@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Modal match snapshot 1`] = `
+<div
+  className="modal-container"
+  onClick={[Function]}
+>
+  <div
+    className="modal-window"
+  >
+    <div
+      className="modal-window-header"
+    >
+      <div
+        className="title"
+      >
+        Title
+      </div>
+      <button
+        className="close"
+        onClick={[Function]}
+      >
+        X
+      </button>
+    </div>
+    <div
+      className="modal-window-body"
+    >
+      Body
+    </div>
+  </div>
+</div>
+`;

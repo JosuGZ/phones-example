@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component PhoneDetailComponent match snapshot 1`] = `
+<Modal
+  body={
+    <pre>
+      {
+  "name": "OnePlus 3T",
+  "image": "/images/oneplus-3t-midnight-black.jpg",
+  "images": [
+    "/images/oneplus-3t-midnight-black.jpg",
+    "/images/oneplus-3t-3.jpg",
+    "/images/oneplus-3-soft-gold.jpg"
+  ],
+  "processor": "Snapdragon 821",
+  "ram": "6GB",
+  "storage": "128GB",
+  "screen": {
+    "size": 5.5,
+    "width": 1980,
+    "height": 1920
+  },
+  "description": "Disfruta de la gama alta sin dejarte un riñón"
+}
+    </pre>
+  }
+  onClose={[Function]}
+  title="OnePlus 3T"
+/>
+`;
