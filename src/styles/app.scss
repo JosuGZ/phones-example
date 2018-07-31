@@ -4,6 +4,7 @@ $background-color: rgba(150, 150, 150, 0.1);
 $accent-color: #fddb00;
 
 @import 'modal';
+@import 'phone-detail-component';
 
 * {
   padding: 0;
@@ -64,6 +65,7 @@ $accent-color: #fddb00;
     width: 100%;
     padding-left: calc(50vw - 640px + 5px);
     padding-right: calc(50vw - 640px + 5px);
+    text-align: center;
   }
 }
 

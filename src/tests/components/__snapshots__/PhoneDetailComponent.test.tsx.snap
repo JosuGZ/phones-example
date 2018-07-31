@@ -1,28 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Component PhoneDetailComponent does not breack when there are no details 1`] = `
+<Modal
+  body={
+    <div
+      className="phone-detail-component"
+    />
+  }
+  onClose={[Function]}
+  title="OnePlus 3T"
+/>
+`;
+
 exports[`Component PhoneDetailComponent match snapshot 1`] = `
 <Modal
   body={
-    <pre>
-      {
-  "name": "OnePlus 3T",
-  "image": "/images/oneplus-3t-midnight-black.jpg",
-  "images": [
-    "/images/oneplus-3t-midnight-black.jpg",
-    "/images/oneplus-3t-3.jpg",
-    "/images/oneplus-3-soft-gold.jpg"
-  ],
-  "processor": "Snapdragon 821",
-  "ram": "6GB",
-  "storage": "128GB",
-  "screen": {
-    "size": 5.5,
-    "width": 1980,
-    "height": 1920
-  },
-  "description": "Disfruta de la gama alta sin dejarte un riñón"
-}
-    </pre>
+    <div
+      className="phone-detail-component"
+    >
+      <div
+        className="image-gallery"
+      >
+        <img
+          src="/images/oneplus-3t-midnight-black.jpg"
+        />
+        <img
+          src="/images/oneplus-3t-3.jpg"
+        />
+        <img
+          src="/images/oneplus-3-soft-gold.jpg"
+        />
+      </div>
+      <p>
+        Disfruta de la gama alta sin dejarte un riñón
+      </p>
+      <p>
+        Procesador: 
+        Snapdragon 821
+      </p>
+      <p>
+        Memoria RAM: 
+        6GB
+      </p>
+      <p>
+        Almacenamiento: 
+        128GB
+      </p>
+      <p>
+        Pantalla de 
+        5.5
+        "
+      </p>
+      <p>
+        Resolución: 
+        1980
+        x
+        1920
+        "
+      </p>
+    </div>
   }
   onClose={[Function]}
   title="OnePlus 3T"

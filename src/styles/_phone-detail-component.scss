@@ -1,0 +1,25 @@
+.phone-detail-component {
+  width: 100%;
+  padding: 5px;
+  .image-gallery {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    img {
+      flex-grow: 0;
+      flex-shrink: 0;
+      padding: 5px;
+      height: 200px;
+      width: auto;
+    }
+    &::before, &::after {
+      content: '';
+      margin: auto;
+    }
+  }
+  p {
+    padding: 5px;
+  }
+}

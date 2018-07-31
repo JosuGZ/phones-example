@@ -152,163 +152,163 @@ router.get('/phones', function(rec, res) {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       },
       {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       },
       {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       },
       {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       },
       {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       },
       {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       },
       {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       },
       {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       },
       {
         name: 'Iphone X',
         image: '/images/apple-iphone-x-new-1.jpg',
         images: [
-          '/images/oneplus-3t-midnight-black.jpg',
-          '/images/oneplus-3t-3.jpg',
-          '/images/oneplus-3-soft-gold.jpg'
+          '/images/apple-iphone-x-new-1.jpg',
+          '/images/apple-iphone-x-new-2.jpg',
+          '/images/apple-iphone-x-4.jpg'
         ],
-        processor: 'Snapdragon 821',
-        ram: '6GB',
-        storage: '128GB',
+        processor: 'Apple A11 Bionic',
+        ram: '3GB',
+        storage: '256GB',
         screen: {
-          size: 5.5,
-          width: 1980,
-          height: 1920
+          size: 5.8,
+          width: 1125,
+          height: 2436
         },
-        description: 'Disfruta de la gama alta sin dejarte un riñón'
+        description: 'Lo último de Apple'
       }
     ]);
   }, 2000);

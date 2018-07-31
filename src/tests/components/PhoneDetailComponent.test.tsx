@@ -22,10 +22,19 @@ describe('Component PhoneDetailComponent', () => {
     },
     description: 'Disfruta de la gama alta sin dejarte un riñón'
   };
+  const testPhoneNoDetails = {
+    name: 'OnePlus 3T',
+    image: '/images/oneplus-3t-midnight-black.jpg'
+  };
   const phoneDetailComponent = shallow(<PhoneDetailComponent phone={testPhone} onClose={onClose}/>);
+  const phoneDetailComponentNoDetails = shallow(<PhoneDetailComponent phone={testPhoneNoDetails} onClose={onClose}/>);
 
   it('match snapshot', () => {
     expect(phoneDetailComponent).toMatchSnapshot();
+  });
+
+  it('does not breack when there are no details', () => {
+    expect(phoneDetailComponentNoDetails).toMatchSnapshot();
   });
 
 });
