@@ -23,7 +23,6 @@ class AppWithProps extends React.Component<AppWithPropsProps, any> {
   }
 
   render() {
-    console.log('props', this.props);
     return (
       <div className="expand">
         <div className="header">

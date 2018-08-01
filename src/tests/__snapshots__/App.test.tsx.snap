@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App match snapshot 1`] = `
+<div>
+  <div
+    class="expand"
+  >
+    <div
+      class="header"
+    >
+      <h1>
+        Bienvenido!
+      </h1>
+    </div>
+    <div
+      class="content"
+    >
+      <div
+        class="loader expand"
+        style="text-align: center;"
+      >
+        <div
+          style="position: relative;"
+        >
+          <svg
+            height="30px"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 24 30"
+            width="24px"
+            x="0px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            y="0px"
+          >
+            <rect
+              height="10"
+              opacity="0.2"
+              width="4"
+              x="0"
+              y="10"
+            >
+              <animate
+                attributeName="opacity"
+                attributeType="XML"
+                begin="0s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="0.2; 1; .2"
+              />
+              <animate
+                attributeName="height"
+                attributeType="XML"
+                begin="0s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="10; 20; 10"
+              />
+              <animate
+                attributeName="y"
+                attributeType="XML"
+                begin="0s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="10; 5; 10"
+              />
+            </rect>
+            <rect
+              height="10"
+              opacity="0.2"
+              width="4"
+              x="8"
+              y="10"
+            >
+              <animate
+                attributeName="opacity"
+                attributeType="XML"
+                begin="0.15s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="0.2; 1; .2"
+              />
+              <animate
+                attributeName="height"
+                attributeType="XML"
+                begin="0.15s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="10; 20; 10"
+              />
+              <animate
+                attributeName="y"
+                attributeType="XML"
+                begin="0.15s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="10; 5; 10"
+              />
+            </rect>
+            <rect
+              height="10"
+              opacity="0.2"
+              width="4"
+              x="16"
+              y="10"
+            >
+              <animate
+                attributeName="opacity"
+                attributeType="XML"
+                begin="0.3s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="0.2; 1; .2"
+              />
+              <animate
+                attributeName="height"
+                attributeType="XML"
+                begin="0.3s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="10; 20; 10"
+              />
+              <animate
+                attributeName="y"
+                attributeType="XML"
+                begin="0.3s"
+                dur="0.6s"
+                repeatCount="indefinite"
+                values="10; 5; 10"
+              />
+            </rect>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
