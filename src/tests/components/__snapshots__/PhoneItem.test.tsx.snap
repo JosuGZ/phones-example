@@ -23,36 +23,3 @@ exports[`Copmonent PhoneItem match snapshot 1`] = `
   </div>
 </div>
 `;
-
-exports[`Copmonent PhoneItem opens 1`] = `
-<div
-  className="phone-outer-box"
->
-  <div
-    className="phone"
-    onClick={[Function]}
-  >
-    <div
-      className="img-container"
-    >
-      <img
-        src="/images/test.jpg"
-      />
-    </div>
-    <div
-      className="name"
-    >
-      Test Model
-    </div>
-  </div>
-  <PhoneDetailComponent
-    onClose={[Function]}
-    phone={
-      Object {
-        "image": "/images/test.jpg",
-        "name": "Test Model",
-      }
-    }
-  />
-</div>
-`;
